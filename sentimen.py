@@ -7,7 +7,7 @@ st.text('Algoritma SVM OneVSRest')
 
 #input
 my_form = st.form(key="form1")
-name = my_form.text_area(label = "Masukkan teks berbahasa indonesia:")
+name = my_form.text_input(label = "Masukkan teks berbahasa indonesia:")
 submit = my_form.form_submit_button(label = 'submit')
 teks = name.title()
 
